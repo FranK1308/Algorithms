@@ -1,3 +1,6 @@
+// Given a graph with its nodes and edges, find the minimal amount of colours needed to colour the nodes in such a way that two connected nodes don't share the same colour 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
