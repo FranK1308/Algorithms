@@ -12,7 +12,7 @@ Return the knight's minimum initial health so that he can rescue the princess.
 Note that any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
 """
 
-def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
+def calculateMinimumHP(dungeon) -> int:
     m = len(dungeon)
     n = len(dungeon[0])
     dp = [[0] * n for i in range(m)]
