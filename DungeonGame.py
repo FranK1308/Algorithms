@@ -10,6 +10,12 @@ To reach the princess as quickly as possible, the knight decides to move only ri
 Return the knight's minimum initial health so that he can rescue the princess.
 
 Note that any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
+
+Constraints:
+m == dungeon.length
+n == dungeon[i].length
+1 <= m, n <= 200
+-1000 <= dungeon[i][j] <= 1000
 """
 
 def calculateMinimumHP(dungeon) -> int:
