@@ -1,3 +1,4 @@
 # Algorithms
-Various algorithms I've developed \\
+Various algorithms I've developed
+
 Each task's description is written in its file
